@@ -2,7 +2,17 @@
 
 Public AI agent skills for working with [BlueHive HUM](https://hum.bluehive.com/).
 
-## Install
+## One-click setup
+
+Paste this into your AI agent:
+
+```text
+Fetch https://hum.bluehive.com/docs/agent-setup/prompt.md
+```
+
+The prompt detects the current client, configures HUM's remote MCP connection without putting credentials in source control, installs the public skill when supported, and verifies the connection with a read-only operation.
+
+## Install the skill directly
 
 ```bash
 npx skills add https://github.com/bluehive-health/hum-skills --skill bluehive-hum
